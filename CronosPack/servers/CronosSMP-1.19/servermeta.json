@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/lutuki/Desktop/Cronos/nebulaworkspace/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "CronosSMP (Minecraft 1.19)",
+    "description": "CronosSMP Running Minecraft 1.19 (Fabric v0.14.8)",
+    "icon": "https://raw.githubusercontent.com/Lutuki/CronosClient/refs/heads/main/CronosPack-Icon.png",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "1473300529869492327",
+      "largeImageText": "Developed by LutukiSolo",
+      "largeImageKey": "big"
+    },
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.14.8"
+  },
+  "untrackedFiles": []
+}

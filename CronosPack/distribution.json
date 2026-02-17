@@ -1,0 +1,499 @@
+{
+  "version": "1.0.0",
+  "rss": "https://raw.githubusercontent.com/Lutuki/CronosClient/refs/heads/main/rss.xml",
+  "discord": {
+    "clientId": "1473300529869492327",
+    "largeImageText": "Developed by LutukiSolo",
+    "largeImageKey": "big"
+  },
+  "servers": [
+    {
+      "id": "CronosSMP-1.19",
+      "name": "CronosSMP (Minecraft 1.19)",
+      "description": "CronosSMP Running Minecraft 1.19 (Fabric v0.14.8)",
+      "icon": "https://raw.githubusercontent.com/Lutuki/CronosClient/refs/heads/main/CronosPack-Icon.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.19",
+      "discord": {
+        "shortId": "1473300529869492327",
+        "largeImageText": "Developed by LutukiSolo",
+        "largeImageKey": "big"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.14.8",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 818144,
+            "MD5": "f4ce69b123e686c3a887f7d6b70c289b",
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/net/fabricmc/fabric-loader/0.14.8/fabric-loader-0.14.8.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.19-fabric-0.14.8",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 1175,
+                "MD5": "58aafe3eb52a2c13048505d35f451813",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/versions/1.19-fabric-0.14.8/1.19-fabric-0.14.8.json"
+              }
+            },
+            {
+              "id": "net.fabricmc:tiny-mappings-parser:0.3.0+build.17",
+              "name": "Fabric (tiny-mappings-parser)",
+              "type": "Library",
+              "artifact": {
+                "size": 82671,
+                "MD5": "2ecb50617a3a012062e53ca4cda50936",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.11.4+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1449377,
+                "MD5": "82a550405ad18aca7233e126203fa76c",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:tiny-remapper:0.8.2",
+              "name": "Fabric (tiny-remapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 216774,
+                "MD5": "8d42acb6a5ee7e7f5c4a8bf36700e16b",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:access-widener:2.1.0",
+              "name": "Fabric (access-widener)",
+              "type": "Library",
+              "artifact": {
+                "size": 30866,
+                "MD5": "b10766a61b0a230c06497a0bb96acd9d",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.3",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 122176,
+                "MD5": "e1c3b96035117ab516ffe0de9bd696e0",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/org/ow2/asm/asm/9.3/asm-9.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.3",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34276,
+                "MD5": "11e43c0220b3f6b4791b8abf7b4cc7ef",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.3",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72716,
+                "MD5": "16e6ac17d33ad97baa415c42e9d93d38",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.3",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 52669,
+                "MD5": "f087bfb911ff93957e44860de3e73c46",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.3",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 85682,
+                "MD5": "d6d0ac4e5c0be9a25a426c70c714b17b",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.19",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 510312,
+                "MD5": "2c4c4a2bc80f37989b7b0997068d31ef",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/net/fabricmc/intermediary/1.19/intermediary-1.19.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "de.guntram.mcmod:antighost:1.19-fabric0.55.3-1.1.5@jar",
+          "name": "AntiGhost",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 78206,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/antighost-1.19-fabric0.55.3-1.1.5.jar",
+            "MD5": "6fbaf6ebdb9d05b088379dd53be26422"
+          }
+        },
+        {
+          "id": "me.cominixo:betterf3:1.3.1@jar",
+          "name": "BetterF3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1419633,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/BetterF3-1.3.1-Fabric-1.19.jar",
+            "MD5": "4295e00d150dd58d268b4500a805346e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:dashloader:4.0.0+1.19@jar",
+          "name": "DashLoader",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5887939,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/dashloader-4.0.0+1.19.jar",
+            "MD5": "cb9b989ff785004c88f682363efdbd9f"
+          }
+        },
+        {
+          "id": "dev.isxander:debugify:2.2.0@jar",
+          "name": "Debugify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 319817,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/debugify-2.2.0-fabric-1.19.jar",
+            "MD5": "506172ecf481370ce1b46acb07115493"
+          }
+        },
+        {
+          "id": "foundationgames.enhancedblockentities:enhancedblockentities:0.7.1+1.19@jar",
+          "name": "Enhanced Block Entities",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 448841,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/enhancedblockentities-0.7.1+1.19.jar",
+            "MD5": "9b542b25f20ae3236c6e87032ba589b6"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric:0.56.2+1.19@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1486216,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/fabric-api-0.56.2+1.19.jar",
+            "MD5": "13642ed992a604c8feea471ea88ce60f"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:4.2.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 119108,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/ferritecore-5.0.0-fabric.jar",
+            "MD5": "1fec8dc10fe59a198a934e36822d550d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.2.5@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1561033,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/iris-mc1.19-1.2.5.jar",
+            "MD5": "0a63a8540d7a91c867d53bca0fc71411"
+          }
+        },
+        {
+          "id": "me.steinborn.krypton.mod.shared:krypton:0.2.0@jar",
+          "name": "Krypton",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 146115,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/krypton-0.2.0.jar",
+            "MD5": "ad5fa1adf27ed8c874e7aaf5ea6ad10d"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.8.0@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 475670,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/lithium-fabric-mc1.19-0.8.0.jar",
+            "MD5": "8eaefad58d9cada61acdff44e60e9ecb"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:4.0.0@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 303533,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/modmenu-4.0.0.jar",
+            "MD5": "4a99fa88597d9f4dcb3fb3db48498b4c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.4.3+mc1.19-build.43@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 40585,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/reeses_sodium_options-1.4.3+mc1.19-build.43.jar",
+            "MD5": "8cbe64c104393da06517f639f0a73bed"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.4.5+mc1.19-build.43@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 205805,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/sodium-extra-0.4.5+mc1.19-build.43.jar",
+            "MD5": "fcf5d01f5fd8aab97814a950cfed2bc8"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.4.2+build.16@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1364166,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/sodium-fabric-mc1.19-0.4.2+build.16.jar",
+            "MD5": "d9e7fd3500b22f44d5357ca76d2a7301"
+          }
+        },
+        {
+          "id": "com.ishland:vmp:0.2.0+beta.5.0@jar",
+          "name": "Very Many Players",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 261474,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/vmp-fabric-mc1.19-0.2.0+beta.5.0-all.jar",
+            "MD5": "89d8a45f7bf1c1b76adcd514fee15f64"
+          }
+        },
+        {
+          "id": "dashloader.json",
+          "name": "dashloader.json",
+          "type": "File",
+          "artifact": {
+            "size": 811,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/dashloader.json",
+            "MD5": "54dca946317b194dd00813618c306f90",
+            "path": "config/dashloader.json"
+          }
+        },
+        {
+          "id": "ferritecore.mixin.properties",
+          "name": "ferritecore.mixin.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1407,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/ferritecore.mixin.properties",
+            "MD5": "bb608d4f027be7cb9c7b0396a31723b3",
+            "path": "config/ferritecore.mixin.properties"
+          }
+        },
+        {
+          "id": "forcecloseloadingscreen.json",
+          "name": "forcecloseloadingscreen.json",
+          "type": "File",
+          "artifact": {
+            "size": 35,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/forcecloseloadingscreen.json",
+            "MD5": "3c4673654dd3b87acd208ed56ff53b92",
+            "path": "config/forcecloseloadingscreen.json"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 238,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/iris.properties",
+            "MD5": "3c94d3c89c008d53674d90f84d039b0f",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "lithium.properties",
+          "name": "lithium.properties",
+          "type": "File",
+          "artifact": {
+            "size": 350,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/lithium.properties",
+            "MD5": "681c81eaf825ba3d11097adaf017e39b",
+            "path": "config/lithium.properties"
+          }
+        },
+        {
+          "id": "modmenu.json",
+          "name": "modmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 481,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/modmenu.json",
+            "MD5": "f08b77246e6656b04769e0b18ed41144",
+            "path": "config/modmenu.json"
+          }
+        },
+        {
+          "id": "sodium-extra-options.json",
+          "name": "sodium-extra-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 1318,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/sodium-extra-options.json",
+            "MD5": "504f46003c710cb12a50f72e41fc04f2",
+            "path": "config/sodium-extra-options.json"
+          }
+        },
+        {
+          "id": "sodium-extra.properties",
+          "name": "sodium-extra.properties",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/sodium-extra.properties",
+            "MD5": "72b9d6dd6ada7b00ef334ee176054dbf",
+            "path": "config/sodium-extra.properties"
+          }
+        },
+        {
+          "id": "sodium-mixins.properties",
+          "name": "sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 266,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/sodium-mixins.properties",
+            "MD5": "6f5f12de22f04364e57a623174cf1484",
+            "path": "config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 652,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/sodium-options.json",
+            "MD5": "4780a5fefc9032030a7d2ec39b44dc63",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "icon.png",
+          "name": "icon.png",
+          "type": "File",
+          "artifact": {
+            "size": 4110,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/icon.png",
+            "MD5": "f03a0600a9c95039030b384dab314f74",
+            "path": "icon.png"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3741,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/options.txt",
+            "MD5": "22fe8d58f25d49f768c68e7cb37056b1",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "AstraLex.zip",
+          "name": "AstraLex.zip",
+          "type": "File",
+          "artifact": {
+            "size": 6819407,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/shaderpacks/AstraLex.zip",
+            "MD5": "753561255ebdc84541a9199f156d797a",
+            "path": "shaderpacks/AstraLex.zip"
+          }
+        },
+        {
+          "id": "BSL.zip",
+          "name": "BSL.zip",
+          "type": "File",
+          "artifact": {
+            "size": 923577,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/shaderpacks/BSL.zip",
+            "MD5": "0dfbccac3a5e7c3cdfbc16277e072c1b",
+            "path": "shaderpacks/BSL.zip"
+          }
+        },
+        {
+          "id": "Chocapic13.zip",
+          "name": "Chocapic13.zip",
+          "type": "File",
+          "artifact": {
+            "size": 14149623,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/shaderpacks/Chocapic13.zip",
+            "MD5": "370978c21f154a0022c4d5b5703b790b",
+            "path": "shaderpacks/Chocapic13.zip"
+          }
+        },
+        {
+          "id": "ComplementaryShaders.zip",
+          "name": "ComplementaryShaders.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3453507,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/shaderpacks/ComplementaryShaders.zip",
+            "MD5": "049a937d7e7f82ace2be1c15282b775a",
+            "path": "shaderpacks/ComplementaryShaders.zip"
+          }
+        },
+        {
+          "id": "Sildur's Enchanced.zip",
+          "name": "Sildur's Enchanced.zip",
+          "type": "File",
+          "artifact": {
+            "size": 35659,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/shaderpacks/Sildur's%20Enchanced.zip",
+            "MD5": "178a0923a67877b36c819e9cb7662704",
+            "path": "shaderpacks/Sildur's Enchanced.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant.zip",
+          "name": "Sildur's Vibrant.zip",
+          "type": "File",
+          "artifact": {
+            "size": 143184,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/shaderpacks/Sildur's%20Vibrant.zip",
+            "MD5": "dd97a74a1ffe66e1de6f5625987d6c65",
+            "path": "shaderpacks/Sildur's Vibrant.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
