@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.0",
   "rss": "https://raw.githubusercontent.com/Lutuki/CronosClient/refs/heads/main/rss.xml",
   "discord": {
     "clientId": "1473300529869492327",
@@ -8,409 +8,490 @@
   },
   "servers": [
     {
-      "id": "Demo-1.19.4",
-      "name": "Demo (Minecraft 1.19.4)",
-      "description": "",
-      "icon": "https://helios-files.geekcorner.eu.org/servers/Demo-1.19.4/Demo-1.19.4.png",
+      "id": "CronosSMP-1.19",
+      "name": "CronosSMP (Minecraft 1.19)",
+      "description": "CronosSMP Running Minecraft 1.19 (Fabric v0.14.8)",
+      "icon": "https://raw.githubusercontent.com/Lutuki/CronosClient/refs/heads/main/CronosPack-Icon.png",
       "version": "1.0.0",
       "address": "localhost:25565",
-      "minecraftVersion": "1.19.4",
+      "minecraftVersion": "1.19",
       "discord": {
-        "shortId": "1.19.4 Demo",
-        "largeImageKey": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/build/icon.png",
-        "largeImageText": "forge-vanilla"
+        "shortId": "1473300529869492327",
+        "largeImageText": "Developed by LutukiSolo",
+        "largeImageKey": "big"
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:lowcodelanguage:1.19.4-45.0.9",
-          "name": "Minecraft Forge (lowcodelanguage)",
-          "type": "ForgeHosted",
-          "classpath": true,
+          "id": "net.fabricmc:fabric-loader:0.14.8",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
           "artifact": {
-            "size": 7378,
-            "MD5": "567726c42a1312962ffd96af646f227d",
-            "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/lowcodelanguage/1.19.4-45.0.9/lowcodelanguage-1.19.4-45.0.9.jar"
+            "size": 818144,
+            "MD5": "f4ce69b123e686c3a887f7d6b70c289b",
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/net/fabricmc/fabric-loader/0.14.8/fabric-loader-0.14.8.jar"
           },
           "subModules": [
             {
-              "id": "1.19.4-45.0.9",
-              "name": "Minecraft Forge (version.json)",
+              "id": "1.19-fabric-0.14.8",
+              "name": "Fabric (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 15497,
-                "MD5": "97924bf1d3bf6f2bc4acc5662a7fecc0",
-                "url": "https://helios-files.geekcorner.eu.org/repo/versions/1.19.4-forge-45.0.9/1.19.4-forge-45.0.9.json"
+                "size": 1175,
+                "MD5": "58aafe3eb52a2c13048505d35f451813",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/versions/1.19-fabric-0.14.8/1.19-fabric-0.14.8.json"
               }
             },
             {
-              "id": "net.minecraftforge:fmlcore:1.19.4-45.0.9",
-              "name": "Minecraft Forge (fmlcore)",
+              "id": "net.fabricmc:tiny-mappings-parser:0.3.0+build.17",
+              "name": "Fabric (tiny-mappings-parser)",
               "type": "Library",
-              "classpath": true,
               "artifact": {
-                "size": 113254,
-                "MD5": "087a7175f26ebce8dee27cc75ab706a6",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/fmlcore/1.19.4-45.0.9/fmlcore-1.19.4-45.0.9.jar"
-              },
-              "subModules": []
+                "size": 82671,
+                "MD5": "2ecb50617a3a012062e53ca4cda50936",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar"
+              }
             },
             {
-              "id": "net.minecraftforge:javafmllanguage:1.19.4-45.0.9",
-              "name": "Minecraft Forge (javafmllanguage)",
+              "id": "net.fabricmc:sponge-mixin:0.11.4+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
               "type": "Library",
-              "classpath": true,
               "artifact": {
-                "size": 16352,
-                "MD5": "85f5a466356973b9a9199f5a5b1d1a25",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/javafmllanguage/1.19.4-45.0.9/javafmllanguage-1.19.4-45.0.9.jar"
-              },
-              "subModules": []
+                "size": 1449377,
+                "MD5": "82a550405ad18aca7233e126203fa76c",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar"
+              }
             },
             {
-              "id": "net.minecraftforge:mclanguage:1.19.4-45.0.9",
-              "name": "Minecraft Forge (mclanguage)",
+              "id": "net.fabricmc:tiny-remapper:0.8.2",
+              "name": "Fabric (tiny-remapper)",
               "type": "Library",
-              "classpath": true,
               "artifact": {
-                "size": 4987,
-                "MD5": "2afe8c6ba41599bbc139607e1f5bc90f",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/mclanguage/1.19.4-45.0.9/mclanguage-1.19.4-45.0.9.jar"
-              },
-              "subModules": []
+                "size": 216774,
+                "MD5": "8d42acb6a5ee7e7f5c4a8bf36700e16b",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar"
+              }
             },
             {
-              "id": "net.minecraftforge:forge:1.19.4-45.0.9:universal",
-              "name": "Minecraft Forge (universal jar)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 2654813,
-                "MD5": "75086169e9f5f6990cd399ae352590da",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/forge/1.19.4-45.0.9/forge-1.19.4-45.0.9-universal.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:forge:1.19.4-45.0.9:client",
-              "name": "Minecraft Forge (client jar)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 5416831,
-                "MD5": "db21cc95ee603f0dc4e7bce8af5d1f5c",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/forge/1.19.4-45.0.9/forge-1.19.4-45.0.9-client.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.19.4-20230314.122934:srg",
-              "name": "Minecraft Forge (client srg)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 18578667,
-                "MD5": "500a7127781d84a24d65f110479538f3",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraft/client/1.19.4-20230314.122934/client-1.19.4-20230314.122934-srg.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.19.4-20230314.122934:slim",
-              "name": "Minecraft Forge (client slim)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 12410103,
-                "MD5": "764989b8230caa18e97f90799f902650",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraft/client/1.19.4-20230314.122934/client-1.19.4-20230314.122934-slim.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.19.4-20230314.122934:extra",
-              "name": "Minecraft Forge (client extra)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 11066539,
-                "MD5": "e612fd0d646100ae60158ba37c5aa71a",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraft/client/1.19.4-20230314.122934/client-1.19.4-20230314.122934-extra.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "cpw.mods:securejarhandler:2.1.6",
-              "name": "Minecraft Forge (securejarhandler)",
+              "id": "net.fabricmc:access-widener:2.1.0",
+              "name": "Fabric (access-widener)",
               "type": "Library",
               "artifact": {
-                "size": 87783,
-                "MD5": "8a4e7e2770d7147d7551d1f3ad835baa",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/cpw/mods/securejarhandler/2.1.6/securejarhandler-2.1.6.jar"
+                "size": 30866,
+                "MD5": "b10766a61b0a230c06497a0bb96acd9d",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar"
               }
             },
             {
               "id": "org.ow2.asm:asm:9.3",
-              "name": "Minecraft Forge (asm)",
+              "name": "Fabric (asm)",
               "type": "Library",
               "artifact": {
                 "size": 122176,
                 "MD5": "e1c3b96035117ab516ffe0de9bd696e0",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm/9.3/asm-9.3.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.3",
-              "name": "Minecraft Forge (asm-commons)",
-              "type": "Library",
-              "artifact": {
-                "size": 72716,
-                "MD5": "16e6ac17d33ad97baa415c42e9d93d38",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.3",
-              "name": "Minecraft Forge (asm-tree)",
-              "type": "Library",
-              "artifact": {
-                "size": 52669,
-                "MD5": "f087bfb911ff93957e44860de3e73c46",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.3",
-              "name": "Minecraft Forge (asm-util)",
-              "type": "Library",
-              "artifact": {
-                "size": 85682,
-                "MD5": "d6d0ac4e5c0be9a25a426c70c714b17b",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar"
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/org/ow2/asm/asm/9.3/asm-9.3.jar"
               }
             },
             {
               "id": "org.ow2.asm:asm-analysis:9.3",
-              "name": "Minecraft Forge (asm-analysis)",
+              "name": "Fabric (asm-analysis)",
               "type": "Library",
               "artifact": {
                 "size": 34276,
                 "MD5": "11e43c0220b3f6b4791b8abf7b4cc7ef",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar"
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar"
               }
             },
             {
-              "id": "net.minecraftforge:accesstransformers:8.0.4",
-              "name": "Minecraft Forge (accesstransformers)",
+              "id": "org.ow2.asm:asm-commons:9.3",
+              "name": "Fabric (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 77756,
-                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+                "size": 72716,
+                "MD5": "16e6ac17d33ad97baa415c42e9d93d38",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar"
               }
             },
             {
-              "id": "org.antlr:antlr4-runtime:4.9.1",
-              "name": "Minecraft Forge (antlr4-runtime)",
+              "id": "org.ow2.asm:asm-tree:9.3",
+              "name": "Fabric (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 337868,
-                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+                "size": 52669,
+                "MD5": "f087bfb911ff93957e44860de3e73c46",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar"
               }
             },
             {
-              "id": "net.minecraftforge:eventbus:6.0.3",
-              "name": "Minecraft Forge (eventbus)",
+              "id": "org.ow2.asm:asm-util:9.3",
+              "name": "Fabric (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 52624,
-                "MD5": "7c93693a70962a1c1893e3c058dca5cf",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/eventbus/6.0.3/eventbus-6.0.3.jar"
+                "size": 85682,
+                "MD5": "d6d0ac4e5c0be9a25a426c70c714b17b",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar"
               }
             },
             {
-              "id": "net.minecraftforge:forgespi:6.0.0",
-              "name": "Minecraft Forge (forgespi)",
+              "id": "net.fabricmc:intermediary:1.19",
+              "name": "Fabric (intermediary)",
               "type": "Library",
               "artifact": {
-                "size": 32714,
-                "MD5": "8c04b8c26ac1d55c281bfeaa71731414",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:coremods:5.0.1",
-              "name": "Minecraft Forge (coremods)",
-              "type": "Library",
-              "artifact": {
-                "size": 24199,
-                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:modlauncher:10.0.8",
-              "name": "Minecraft Forge (modlauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 130263,
-                "MD5": "3e171edcc29e762d2ecafffabb9e9341",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:unsafe:0.2.0",
-              "name": "Minecraft Forge (unsafe)",
-              "type": "Library",
-              "artifact": {
-                "size": 2834,
-                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:core:3.6.4",
-              "name": "Minecraft Forge (core)",
-              "type": "Library",
-              "artifact": {
-                "size": 199834,
-                "MD5": "d83ab07267e402131fb93d899a57f5cd",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:toml:3.6.4",
-              "name": "Minecraft Forge (toml)",
-              "type": "Library",
-              "artifact": {
-                "size": 31816,
-                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.8.5",
-              "name": "Minecraft Forge (maven-artifact)",
-              "type": "Library",
-              "artifact": {
-                "size": 58077,
-                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
-              }
-            },
-            {
-              "id": "net.jodah:typetools:0.8.3",
-              "name": "Minecraft Forge (typetools)",
-              "type": "Library",
-              "artifact": {
-                "size": 15425,
-                "MD5": "ee4596e1413cc1a5e080c971d6064753",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
-              }
-            },
-            {
-              "id": "net.minecrell:terminalconsoleappender:1.2.0",
-              "name": "Minecraft Forge (terminalconsoleappender)",
-              "type": "Library",
-              "artifact": {
-                "size": 15977,
-                "MD5": "679363fa893293791e55a21f81342f87",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline-reader:3.12.1",
-              "name": "Minecraft Forge (jline-reader)",
-              "type": "Library",
-              "artifact": {
-                "size": 150765,
-                "MD5": "a2e7b012cd9802f83321187409174a94",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline-terminal:3.12.1",
-              "name": "Minecraft Forge (jline-terminal)",
-              "type": "Library",
-              "artifact": {
-                "size": 211712,
-                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
-              }
-            },
-            {
-              "id": "org.spongepowered:mixin:0.8.5",
-              "name": "Minecraft Forge (mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1089277,
-                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
-              }
-            },
-            {
-              "id": "org.openjdk.nashorn:nashorn-core:15.3",
-              "name": "Minecraft Forge (nashorn-core)",
-              "type": "Library",
-              "artifact": {
-                "size": 2167288,
-                "MD5": "91e98c20afa1090c344229ce28b4c53f",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarSelector:0.3.19",
-              "name": "Minecraft Forge (JarJarSelector)",
-              "type": "Library",
-              "artifact": {
-                "size": 17374,
-                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
-              "name": "Minecraft Forge (JarJarMetadata)",
-              "type": "Library",
-              "artifact": {
-                "size": 15895,
-                "MD5": "9633546d299d4282ca68d10582be1c8f",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:bootstraplauncher:1.1.2",
-              "name": "Minecraft Forge (bootstraplauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 8284,
-                "MD5": "48f5255aa337344c467c0150d347813d",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
-              "name": "Minecraft Forge (JarJarFileSystems)",
-              "type": "Library",
-              "artifact": {
-                "size": 32195,
-                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:fmlloader:1.19.4-45.0.9",
-              "name": "Minecraft Forge (fmlloader)",
-              "type": "Library",
-              "artifact": {
-                "size": 261271,
-                "MD5": "896da600a8508b6a41a4f804e1073b92",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/fmlloader/1.19.4-45.0.9/fmlloader-1.19.4-45.0.9.jar"
+                "size": 510312,
+                "MD5": "2c4c4a2bc80f37989b7b0997068d31ef",
+                "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/repo/lib/net/fabricmc/intermediary/1.19/intermediary-1.19.jar"
               }
             }
           ]
+        },
+        {
+          "id": "de.guntram.mcmod:antighost:1.19-fabric0.55.3-1.1.5@jar",
+          "name": "AntiGhost",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 78206,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/antighost-1.19-fabric0.55.3-1.1.5.jar",
+            "MD5": "6fbaf6ebdb9d05b088379dd53be26422"
+          }
+        },
+        {
+          "id": "me.cominixo:betterf3:1.3.1@jar",
+          "name": "BetterF3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1419633,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/BetterF3-1.3.1-Fabric-1.19.jar",
+            "MD5": "4295e00d150dd58d268b4500a805346e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:dashloader:4.0.0+1.19@jar",
+          "name": "DashLoader",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5887939,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/dashloader-4.0.0+1.19.jar",
+            "MD5": "cb9b989ff785004c88f682363efdbd9f"
+          }
+        },
+        {
+          "id": "dev.isxander:debugify:2.2.0@jar",
+          "name": "Debugify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 319817,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/debugify-2.2.0-fabric-1.19.jar",
+            "MD5": "506172ecf481370ce1b46acb07115493"
+          }
+        },
+        {
+          "id": "foundationgames.enhancedblockentities:enhancedblockentities:0.7.1+1.19@jar",
+          "name": "Enhanced Block Entities",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 448841,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/enhancedblockentities-0.7.1+1.19.jar",
+            "MD5": "9b542b25f20ae3236c6e87032ba589b6"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric:0.56.2+1.19@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1486216,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/fabric-api-0.56.2+1.19.jar",
+            "MD5": "13642ed992a604c8feea471ea88ce60f"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:4.2.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 119108,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/ferritecore-5.0.0-fabric.jar",
+            "MD5": "1fec8dc10fe59a198a934e36822d550d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.2.5@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1561033,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/iris-mc1.19-1.2.5.jar",
+            "MD5": "0a63a8540d7a91c867d53bca0fc71411"
+          }
+        },
+        {
+          "id": "me.steinborn.krypton.mod.shared:krypton:0.2.0@jar",
+          "name": "Krypton",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 146115,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/krypton-0.2.0.jar",
+            "MD5": "ad5fa1adf27ed8c874e7aaf5ea6ad10d"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.8.0@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 475670,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/lithium-fabric-mc1.19-0.8.0.jar",
+            "MD5": "8eaefad58d9cada61acdff44e60e9ecb"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:4.0.0@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 303533,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/modmenu-4.0.0.jar",
+            "MD5": "4a99fa88597d9f4dcb3fb3db48498b4c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.4.3+mc1.19-build.43@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 40585,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/reeses_sodium_options-1.4.3+mc1.19-build.43.jar",
+            "MD5": "8cbe64c104393da06517f639f0a73bed"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.4.5+mc1.19-build.43@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 205805,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/sodium-extra-0.4.5+mc1.19-build.43.jar",
+            "MD5": "fcf5d01f5fd8aab97814a950cfed2bc8"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.4.2+build.16@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1364166,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/sodium-fabric-mc1.19-0.4.2+build.16.jar",
+            "MD5": "d9e7fd3500b22f44d5357ca76d2a7301"
+          }
+        },
+        {
+          "id": "com.ishland:vmp:0.2.0+beta.5.0@jar",
+          "name": "Very Many Players",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 261474,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/fabricmods/required/vmp-fabric-mc1.19-0.2.0+beta.5.0-all.jar",
+            "MD5": "89d8a45f7bf1c1b76adcd514fee15f64"
+          }
+        },
+        {
+          "id": "dashloader.json",
+          "name": "dashloader.json",
+          "type": "File",
+          "artifact": {
+            "size": 811,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/dashloader.json",
+            "MD5": "54dca946317b194dd00813618c306f90",
+            "path": "config/dashloader.json"
+          }
+        },
+        {
+          "id": "ferritecore.mixin.properties",
+          "name": "ferritecore.mixin.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1407,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/ferritecore.mixin.properties",
+            "MD5": "bb608d4f027be7cb9c7b0396a31723b3",
+            "path": "config/ferritecore.mixin.properties"
+          }
+        },
+        {
+          "id": "forcecloseloadingscreen.json",
+          "name": "forcecloseloadingscreen.json",
+          "type": "File",
+          "artifact": {
+            "size": 35,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/forcecloseloadingscreen.json",
+            "MD5": "3c4673654dd3b87acd208ed56ff53b92",
+            "path": "config/forcecloseloadingscreen.json"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 238,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/iris.properties",
+            "MD5": "3c94d3c89c008d53674d90f84d039b0f",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "lithium.properties",
+          "name": "lithium.properties",
+          "type": "File",
+          "artifact": {
+            "size": 350,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/lithium.properties",
+            "MD5": "681c81eaf825ba3d11097adaf017e39b",
+            "path": "config/lithium.properties"
+          }
+        },
+        {
+          "id": "modmenu.json",
+          "name": "modmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 481,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/modmenu.json",
+            "MD5": "f08b77246e6656b04769e0b18ed41144",
+            "path": "config/modmenu.json"
+          }
+        },
+        {
+          "id": "sodium-extra-options.json",
+          "name": "sodium-extra-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 1318,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/sodium-extra-options.json",
+            "MD5": "504f46003c710cb12a50f72e41fc04f2",
+            "path": "config/sodium-extra-options.json"
+          }
+        },
+        {
+          "id": "sodium-extra.properties",
+          "name": "sodium-extra.properties",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/sodium-extra.properties",
+            "MD5": "72b9d6dd6ada7b00ef334ee176054dbf",
+            "path": "config/sodium-extra.properties"
+          }
+        },
+        {
+          "id": "sodium-mixins.properties",
+          "name": "sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 266,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/sodium-mixins.properties",
+            "MD5": "6f5f12de22f04364e57a623174cf1484",
+            "path": "config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 652,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/config/sodium-options.json",
+            "MD5": "4780a5fefc9032030a7d2ec39b44dc63",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "icon.png",
+          "name": "icon.png",
+          "type": "File",
+          "artifact": {
+            "size": 4110,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/icon.png",
+            "MD5": "f03a0600a9c95039030b384dab314f74",
+            "path": "icon.png"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3741,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/options.txt",
+            "MD5": "22fe8d58f25d49f768c68e7cb37056b1",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "AstraLex.zip",
+          "name": "AstraLex.zip",
+          "type": "File",
+          "artifact": {
+            "size": 6819407,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/shaderpacks/AstraLex.zip",
+            "MD5": "753561255ebdc84541a9199f156d797a",
+            "path": "shaderpacks/AstraLex.zip"
+          }
+        },
+        {
+          "id": "BSL.zip",
+          "name": "BSL.zip",
+          "type": "File",
+          "artifact": {
+            "size": 923577,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/shaderpacks/BSL.zip",
+            "MD5": "0dfbccac3a5e7c3cdfbc16277e072c1b",
+            "path": "shaderpacks/BSL.zip"
+          }
+        },
+        {
+          "id": "Chocapic13.zip",
+          "name": "Chocapic13.zip",
+          "type": "File",
+          "artifact": {
+            "size": 14149623,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/shaderpacks/Chocapic13.zip",
+            "MD5": "370978c21f154a0022c4d5b5703b790b",
+            "path": "shaderpacks/Chocapic13.zip"
+          }
+        },
+        {
+          "id": "ComplementaryShaders.zip",
+          "name": "ComplementaryShaders.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3453507,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/shaderpacks/ComplementaryShaders.zip",
+            "MD5": "049a937d7e7f82ace2be1c15282b775a",
+            "path": "shaderpacks/ComplementaryShaders.zip"
+          }
+        },
+        {
+          "id": "Sildur's Enchanced.zip",
+          "name": "Sildur's Enchanced.zip",
+          "type": "File",
+          "artifact": {
+            "size": 35659,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/shaderpacks/Sildur's%20Enchanced.zip",
+            "MD5": "178a0923a67877b36c819e9cb7662704",
+            "path": "shaderpacks/Sildur's Enchanced.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant.zip",
+          "name": "Sildur's Vibrant.zip",
+          "type": "File",
+          "artifact": {
+            "size": 143184,
+            "url": "https://github.com/Lutuki/CronosClient/raw/refs/heads/main/CronosPack/servers/CronosSMP-1.19/files/shaderpacks/Sildur's%20Vibrant.zip",
+            "MD5": "dd97a74a1ffe66e1de6f5625987d6c65",
+            "path": "shaderpacks/Sildur's Vibrant.zip"
+          }
         }
       ]
     }
