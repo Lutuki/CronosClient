@@ -2,9 +2,9 @@
   "version": "1.0.1",
   "rss": "https://raw.githubusercontent.com/Lutuki/CronosClient/refs/heads/main/rss.xml",
   "discord": {
-    "clientId": "1086936373057040395",
-    "smallImageText": "Change me through Nebula",
-    "smallImageKey": "big"
+    "clientId": "1473300529869492327",
+    "largeImageText": "Developed by LutukiSolo",
+    "largeImageKey": "big"
   },
   "servers": [
     {
