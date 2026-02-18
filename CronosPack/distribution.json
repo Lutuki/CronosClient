@@ -12,7 +12,7 @@
       "name": "CronosSMP (Minecraft 1.19)",
       "description": "CronosSMP Running Minecraft 1.19 (Fabric v0.14.8)",
       "icon": "https://raw.githubusercontent.com/Lutuki/CronosClient/refs/heads/main/logo-cronos-smp.jpg",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "localhost:25565",
       "minecraftVersion": "1.19",
       "discord": {
