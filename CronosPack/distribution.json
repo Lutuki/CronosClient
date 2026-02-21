@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "rss": "https://raw.githubusercontent.com/Lutuki/CronosClient/refs/heads/main/rss.xml",
   "discord": {
     "clientId": "1473300529869492327",
